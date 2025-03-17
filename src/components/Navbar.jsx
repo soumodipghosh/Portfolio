@@ -1,4 +1,3 @@
-import { a, div, link } from 'framer-motion/client'
 import React, { useState } from 'react'
 import {LINKS} from "../constants/index"
 import { RiCloseFill, RiMenu3Fill } from '@remixicon/react'

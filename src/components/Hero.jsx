@@ -2,9 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { clipPath } from 'framer-motion/client'
 import { HERO_CONTENT } from '../constants'
-import jason from "../assets/jason-root.webp"
-import kevin from "../assets/kevin.png"
-import kevinn from "../assets/kevinRushProfile.jpg"
+import kevin from "../assets/kevinRushProfile.jpg"
 
 const textVariants = {
     hidden: {opacity: 0, y:50},
@@ -61,7 +59,7 @@ const Hero = () => {
         initial="hidden"
         animate="visible"
         variants={imagrVariants}>
-            <img src={kevinn} alt="" width={650} height={650} className='rounded-full lg:p-20' />
+            <img src={kevin} alt="" width={650} height={650} className='rounded-full lg:p-20' />
         </motion.div>
     </div>
     </section>

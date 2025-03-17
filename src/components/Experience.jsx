@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { EXPERIENCES } from '../constants'
-import { li } from 'framer-motion/client'
 
 const Experience = () => {
     const containerVariants = {

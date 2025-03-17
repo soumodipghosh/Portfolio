@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { section } from 'framer-motion/client'
 import { ABOUT_CONTENT } from '../constants'
 
 const About = () => {
