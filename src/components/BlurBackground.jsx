@@ -12,6 +12,7 @@ const circleVariants = {
             ease: "easeOut"
         }
     },
+
     animate2: {
       scale: [1, 1.1, 1],
       x: [0, 120, 0],
@@ -21,6 +22,7 @@ const circleVariants = {
         ease: "easeInOut"
       }
     },
+
     animate3: {
       scale: [1, 1.3, 1],
       x: [0, 140, 0],
@@ -31,6 +33,7 @@ const circleVariants = {
         ease: "easeInOut"
       }
     },
+
     animate4: {
       scale: [1, 1.4, 1],
       x: [0, 160, 0],
@@ -41,6 +44,7 @@ const circleVariants = {
         ease: "easeInOut"
       }
     },
+
     animate5: {
       scale: [1, 1.5, 1],
       x: [0, 180, 0],
@@ -51,6 +55,7 @@ const circleVariants = {
         ease: "easeInOut"
       }
     },
+    
     animate6: {
       scale: [1, 1.6, 1],
       x: [0, 200, 0],
