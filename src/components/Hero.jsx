@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { clipPath } from 'framer-motion/client'
 import { HERO_CONTENT } from '../constants'
 import kevin from "../assets/kevinRushProfile.jpg"
 
@@ -20,7 +19,7 @@ const containerVariants = {
 }
 
 const imagrVariants = {
-    hidden: {clipPath: "insert(0 50% 0 50%"},
+    //hidden: {clipPath: "insert(0 50% 0 50%"},
     visible: {
         clipPath: "inset(0 0% 0 0%",
         transition:{
