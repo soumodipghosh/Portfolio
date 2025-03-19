@@ -28,7 +28,7 @@ const Contact = () => {
     variants={textVariants}>
       {CONTACT_CONTENT.headline}
     </motion.h3>
-    <motion.p className='text-lg md:text-2xl mt-6 max-w-3xl' initial="hidden" whileInView="visible" custom={0.6}
+    <motion.p className='text-lg md:text-2xl mt-6 pb-3 max-w-3xl' initial="hidden" whileInView="visible" custom={0.6}
     variants={textVariants}>
       {CONTACT_CONTENT.description}
     </motion.p>
@@ -37,7 +37,7 @@ const Contact = () => {
     whileInView="visible" custom={0.8} variants={textVariants}>
       {CONTACT_CONTENT.email}
     </motion.a>
-    <div className='flex space-x-6 mt-8'>
+    <div className='flex space-x-6 mt-5'>
       {CONTACT_CONTENT.socialLinks.map((link, index) => {
         const Icon = link.icon === "RiGithubFill" ? RiGithubFill : RiLinkedinFill;
         return (
