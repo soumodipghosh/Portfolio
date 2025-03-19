@@ -90,7 +90,7 @@ export const EXPERIENCES = [
   // },
   {
     yearRange: "2024 — 2025",
-    title: "Frontend Engineer at HAMS Fly.com",
+    title: "Frontend Developer at HAMS Fly.com",
     location: "Remote",
     description: [
       "Built dynamic, responsive, and accessible web applications using React, Next.js, and Tailwind CSS.",
@@ -162,22 +162,17 @@ export const CONTACT_CONTENT = {
     "I'm excited to collaborate on projects that push boundaries and create meaningful impact. Let's build something innovative and exceptional together.",
   email: "ghosh.soumodip2002@gmail.com",
   socialLinks: [
-    {
-      platform: "Twitter",
-      url: "https://twitter.com/yourprofile",
-      ariaLabel: "Follow me on Twitter",
-      icon: "RiTwitterXFill",
-    },
 
     {
       platform: "GitHub",
-      url: "https://github.com/yourprofile",
+      url: "https://github.com/soumodipghosh",
       ariaLabel: "View my GitHub profile",
       icon: "RiGithubFill",
     },
+    
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
+      url: "https://linkedin.com/in/soumodip-ghosh-a94a5924b",
       ariaLabel: "Connect with me on LinkedIn",
       icon: "RiLinkedinFill",
     },
