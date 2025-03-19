@@ -169,7 +169,7 @@ export const CONTACT_CONTENT = {
       ariaLabel: "View my GitHub profile",
       icon: "RiGithubFill",
     },
-    
+
     {
       platform: "LinkedIn",
       url: "https://linkedin.com/in/soumodip-ghosh-a94a5924b",

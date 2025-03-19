@@ -32,7 +32,8 @@ const Contact = () => {
     variants={textVariants}>
       {CONTACT_CONTENT.description}
     </motion.p>
-    <motion.a className='mt-20 text-2xl md:text-3xl' href={`mailto:${CONTACT_CONTENT.email}`} initial="hidden"
+    <hr className='pt-6'/>
+    <motion.a className=' text-xl md:text-3xl lg:text-xl' href={`mailto:${CONTACT_CONTENT.email}`} initial="hidden"
     whileInView="visible" custom={0.8} variants={textVariants}>
       {CONTACT_CONTENT.email}
     </motion.a>
