@@ -90,7 +90,7 @@ export const EXPERIENCES = [
   // },
   {
     yearRange: "2024 — 2025",
-    title: "Frontend Developer at HAMS Fly.com",
+    title: "Frontend Developer at HAMS Fly Limited",
     location: "Remote",
     description: [
       "Built dynamic, responsive, and accessible web applications using React, Next.js, and Tailwind CSS.",
