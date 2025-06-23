@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { HERO_CONTENT } from '../constants'
-import kevin from "../assets/kevinRushProfile.jpg"
+import Raj from "../assets/Raj.jpg"
 
 const textVariants = {
     hidden: {opacity: 0, y:50},
@@ -58,7 +58,7 @@ const Hero = () => {
         initial="hidden"
         animate="visible"
         variants={imagrVariants}>
-            <img src={kevin} alt="" width={650} height={650} className='rounded-full lg:p-20' />
+            <img src={Raj} alt="" width={650} height={650} className='rounded-full lg:p-20' />
         </motion.div>
     </div>
     </section>
